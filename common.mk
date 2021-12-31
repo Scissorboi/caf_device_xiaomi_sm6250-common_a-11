@@ -40,9 +40,10 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     audio.r_submix.default \
     libaudio-resampler \
-    libtinycompress
+    libtinycompress \
+    sound_trigger.primary.atoll
 
-TARGET_EXCLUDES_AUDIOFX := true 
+TARGET_EXCLUDES_AUDIOFX := true
 
 
 PRODUCT_PACKAGES += \
